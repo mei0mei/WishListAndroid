@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "239372372269",
+    "firebase_url": "https://wishlist-94490.firebaseio.com",
+    "project_id": "wishlist-94490",
+    "storage_bucket": "wishlist-94490.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239372372269:android:b59b15b18101b428",
+        "android_client_info": {
+          "package_name": "com.example.verunex.wishlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239372372269-du370h4027a271h71tr2hnj8eu45f09r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX1GWIf6P9_WcoZtpGMimuGjaKLQe8Erc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
