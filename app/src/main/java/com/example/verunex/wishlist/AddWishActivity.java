@@ -5,18 +5,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class AddWishActivity extends AppCompatActivity {
 
     //Buttons
-    private Button addProductsToWishList;
+    private ImageButton addProductsToWishList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_wish);
 
-        setTitle("Dodaj nową"); //TODO string values
+        //TODO string values - done
 
         initControl();
 
@@ -27,7 +28,7 @@ public class AddWishActivity extends AppCompatActivity {
 
     private void initControl() {
 
-        addProductsToWishList = (Button)findViewById(R.id.addProductsToWishList);
+        addProductsToWishList = (ImageButton)findViewById(R.id.addProductsToWishList);
 
     }
 

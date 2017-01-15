@@ -8,15 +8,25 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity   android:name=".MainActivity"
+                    android:label="@string/your_wishlists">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddWishActivity" />
-        <activity android:name=".AddProductsPop"></activity>
+
+        <activity   android:name=".AddWishActivity"
+                    android:label="@string/add_wishlist"
+                    android:windowSoftInputMode="stateAlwaysHidden"/>
+
+        <activity   android:name=".AddProductsPop"
+                    android:label="@string/add_product"
+                    android:windowSoftInputMode="stateAlwaysHidden"
+                    android:theme="@style/DialogTheme"
+
+            />
     </application>
 
 </manifest>

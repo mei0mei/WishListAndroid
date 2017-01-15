@@ -8,16 +8,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.verunex.wishlist.MainActivity">
+    tools:context="com.example.verunex.wishlist.MainActivity"
+    android:background="@color/colorIcons"
+    >
 
 
-    <Button
-        android:text="+"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/addWishButton"
+        android:background="@color/colorIcons"
+        android:src="@drawable/ic_add_button"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="11dp"
-        android:id="@+id/addWishButton" />
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>

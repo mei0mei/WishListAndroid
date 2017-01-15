@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">WishList</string>
+    <string name="your_wishlists">Twoje listy życzeń</string>
+    <string name="add_wishlist">Nowa lista życzeń</string>
+    <string name="add_product">Dodaj nowy produkt</string>
+    <string name="wishlist_name">Nazwa Twojej listy życzeń</string>
+    <string name="wishlist_label">Rodzaj</string>
+    <string name="wishlist_products">Pozycje na Twojej liście życzeń</string>
+    <string name="add_name_product">Nazwa</string>
+    <string name="add_price_product">Cena</string>
+    <string name="add_link_product">Link</string>
+    <string-array name="label">
+        <item>Urodziny</item>
+        <item>Święta</item>
+        <item>Wesele</item>
+        <item>Różne</item>
+    </string-array>
+    <string name="add_product_confirm">Dodaj</string>
 </resources>

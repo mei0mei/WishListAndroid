@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -13,7 +14,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class MainActivity extends AppCompatActivity {
 
     // Buttons
-    private Button addWishButton;
+    private ImageButton addWishButton;
 
     //Firebase
     private FirebaseDatabase mFirebaseDatabase;
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initControl() {
-        addWishButton = (Button)findViewById(R.id.addWishButton);
+        addWishButton = (ImageButton)findViewById(R.id.addWishButton);
     }
 
     private void buttonsClick() {

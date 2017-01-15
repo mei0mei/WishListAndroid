@@ -1,10 +1,11 @@
 package com.example.verunex.wishlist;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 
-public class AddProductsPop extends AppCompatActivity {
+public class AddProductsPop extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
